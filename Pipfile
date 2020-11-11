@@ -7,8 +7,9 @@ verify_ssl = true
 
 [packages]
 flask = "*"
+wtforms = "*"
+flask-sqlalchemy = "*"
 flask-wtf = "*"
-email-validator = "*"
 
 [requires]
 python_version = "3.8"
