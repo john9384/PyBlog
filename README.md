@@ -1,2 +1,2 @@
 # PyBlog
-A Blogging app built with Python Flask
+A Blogging web app built with Python Flask
