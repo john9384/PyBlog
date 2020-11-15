@@ -20,18 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5604c7f2-6ea4-4aa9-9816-d677043d5c99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/templates/create_post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/reset_request.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/reset_token.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compare.py" beforeDir="false" afterPath="$PROJECT_DIR$/compare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pyblog.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/pyblog.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/signin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/signup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jvnnPMZzhDjHRvON5wCBSPaFBN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -134,7 +135,9 @@
       <updated>1604693604745</updated>
       <workItem from="1604693643156" duration="1142000" />
       <workItem from="1605249444477" duration="9260000" />
-      <workItem from="1605268833039" duration="6118000" />
+      <workItem from="1605268833039" duration="6464000" />
+      <workItem from="1605390969852" duration="1345000" />
+      <workItem from="1605440683034" duration="5487000" />
     </task>
     <servers />
   </component>
