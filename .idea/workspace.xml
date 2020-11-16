@@ -20,17 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5604c7f2-6ea4-4aa9-9816-d677043d5c99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/templates/reset_request.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/reset_token.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compare.py" beforeDir="false" afterPath="$PROJECT_DIR$/compare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compare.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forms.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pyblog.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/pyblog.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/signin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/user_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/user_posts.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +45,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -66,6 +71,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Documents\GitHub\PyBlog\src" />
       <recent name="C:\Users\USER\Documents\GitHub\PyBlog\src\static\css" />
       <recent name="C:\Users\USER\Documents\GitHub\PyBlog\src\static" />
       <recent name="C:\Users\USER\Documents\VS Code\PyBlog\src" />
@@ -137,7 +143,8 @@
       <workItem from="1605249444477" duration="9260000" />
       <workItem from="1605268833039" duration="6464000" />
       <workItem from="1605390969852" duration="1345000" />
-      <workItem from="1605440683034" duration="5487000" />
+      <workItem from="1605440683034" duration="5776000" />
+      <workItem from="1605530248221" duration="18455000" />
     </task>
     <servers />
   </component>
@@ -173,6 +180,10 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state width="1557" height="235" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1604695792363" />
+    <state x="463" y="190" width="672" height="678" key="search.everywhere.popup" timestamp="1605533405913">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="463" y="190" width="672" height="678" key="search.everywhere.popup/0.0.1600.900@0.0.1600.900" timestamp="1605533405913" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PyBlog$app.coverage" NAME="app Coverage Results" MODIFIED="1604693938394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />

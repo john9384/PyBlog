@@ -1,32 +1,36 @@
-import os
 from flask import Flask, render_template, url_for, flash, redirect
 from flask_sqlalchemy import SQLAlchemy
 from flask_bcrypt import Bcrypt
 from flask_login import LoginManager
 from flask_mail import Mail
+from src.config import Config
 
-app = Flask(__name__)
-app.config['SECRET_KEY'] = 'e5e0e3c55977f326856efa3530e903d9'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///pyblog.db'
-db = SQLAlchemy(app)
-bcrypt = Bcrypt(app)
-login_manager = LoginManager(app)
-login_manager.login_view = 'sign_in'
-login_manager.login_message_category = 'info'
-# app.config['MAIL_SERVER'] = 'smtp.googlemail.com'
-# app.config['MAIL_PORT'] = 587
-# app.config['MAIL_USER_TLS'] = True
-# # app.config['MAIL_USERNAME'] = os.environ.get('EMAIL_USER')
-# # app.config['MAIL_PASSWORD'] = os.environ.get('EMAIL_PASS')
-# app.config['MAIL_USERNAME'] = 'ogungburedamilola@gmail.com'
-# app.config['MAIL_PASSWORD'] = 'd1a2m3i4.,'
+# Binding Extentions
+db = SQLAlchemy()
+bcrypt = Bcrypt()
+login_manager = LoginManager()
+login_manager.login_view = 'users.sign_in'
+login_manager.login_message_category = 'info',
+mail = Mail()
 
-app.config['MAIL_SERVER'] = 'smtp.mailtrap.io'
-app.config['MAIL_PORT'] = 2525
-app.config['MAIL_USERNAME'] = 'cb92231b21b23f'
-app.config['MAIL_PASSWORD'] = '66ee86986c3a2a'
-app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USE_SSL'] = False
 
-mail = Mail(app)
-from src import routes
+def create_app(config_class=Config):
+    # Initializing the flask app
+    app = Flask(__name__)
+    app.config.from_object(Config)
+
+    # Initializing Extensions for the app
+    db.init_app(app)
+    bcrypt.init_app(app)
+    login_manager.init_app(app)
+    mail.init_app(app)
+
+    from src.main.routes import main
+    from src.users.routes import users
+    from src.posts.routes import posts
+
+    app.register_blueprint(main)
+    app.register_blueprint(users)
+    app.register_blueprint(posts)
+
+    return app
