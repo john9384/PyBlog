@@ -21,20 +21,17 @@
   <component name="ChangeListManager">
     <list default="true" id="5604c7f2-6ea4-4aa9-9816-d677043d5c99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compare.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/posts/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/posts/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/posts/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pyblog.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/pyblog.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/signin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/user_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/user_posts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/users/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/users/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,11 +68,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Documents\GitHub\PyBlog\src\components" />
       <recent name="C:\Users\USER\Documents\GitHub\PyBlog\src" />
       <recent name="C:\Users\USER\Documents\GitHub\PyBlog\src\static\css" />
       <recent name="C:\Users\USER\Documents\GitHub\PyBlog\src\static" />
       <recent name="C:\Users\USER\Documents\VS Code\PyBlog\src" />
-      <recent name="C:\Users\USER\Documents\VS Code\PyBlog\src\forms" />
     </key>
   </component>
   <component name="RunManager" selected="Python.PyBlog">
@@ -144,7 +141,8 @@
       <workItem from="1605268833039" duration="6464000" />
       <workItem from="1605390969852" duration="1345000" />
       <workItem from="1605440683034" duration="5776000" />
-      <workItem from="1605530248221" duration="18455000" />
+      <workItem from="1605530248221" duration="19248000" />
+      <workItem from="1605623797851" duration="4082000" />
     </task>
     <servers />
   </component>

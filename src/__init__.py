@@ -1,4 +1,4 @@
-from flask import Flask, render_template, url_for, flash, redirect
+from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_bcrypt import Bcrypt
 from flask_login import LoginManager
@@ -25,12 +25,15 @@ def create_app(config_class=Config):
     login_manager.init_app(app)
     mail.init_app(app)
 
-    from src.main.routes import main
-    from src.users.routes import users
-    from src.posts.routes import posts
+    from src.components.main.routes import main
+    from src.components.users.routes import users
+    from src.components.posts.routes import posts
+    from src.components.errors.handlers import errors
+
 
     app.register_blueprint(main)
     app.register_blueprint(users)
     app.register_blueprint(posts)
+    app.register_blueprint(errors)
 
     return app

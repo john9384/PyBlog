@@ -2,7 +2,7 @@ from flask import Blueprint, render_template, url_for, flash, redirect, request,
 from flask_login import current_user, login_required
 from src import db
 from src.models import Post
-from src.posts.forms import PostForm
+from src.components.posts.forms import PostForm
 
 # creating a blueprint of the post
 posts = Blueprint('posts', __name__)
