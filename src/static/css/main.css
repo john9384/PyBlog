@@ -1,10 +1,15 @@
-body {
+/* body {
   background: #fafafa;
   color: #333333;
   margin-top: 5rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #444444;
 }
 
@@ -44,7 +49,7 @@ a.article-title:hover {
 .article-content {
   white-space: normal;
 }
-.article-content--sum{
+.article-content--sum {
   white-space: normal;
 }
 
@@ -57,7 +62,7 @@ a.article-title:hover {
 .article-metadata {
   padding-bottom: 1px;
   margin-bottom: 4px;
-  border-bottom: 1px solid #e3e3e3
+  border-bottom: 1px solid #e3e3e3;
 }
 
 .article-metadata a:hover {
@@ -81,3 +86,7 @@ a.article-title:hover {
 .account-heading {
   font-size: 2.5rem;
 }
+.navbar-img {
+  width: 50px;
+  height: 50px;
+} */

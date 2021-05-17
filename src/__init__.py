@@ -25,10 +25,14 @@ def create_app(config_class=Config):
     login_manager.init_app(app)
     mail.init_app(app)
 
-    from src.components.main.routes import main
-    from src.components.users.routes import users
-    from src.components.posts.routes import posts
-    from src.components.errors.handlers import errors
+    with app.app_context():
+        from src.components.main.routes import main
+        from src.components.users.routes import users
+        from src.components.posts.routes import posts
+        from src.components.errors.handlers import errors
+        db.create_all()  # Create sql tables for our data models
+
+    
 
 
     app.register_blueprint(main)
